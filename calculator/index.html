@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Link to the custom CSS -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <title>Calculator</title>
+</head>
+<body>
+  <main>
+    <section class="calculator-section">
+      <!-- bg-line -->
+      <div class="mobile-line">
+        <img width="100%" src="../assets/images/mobile-calc-line.svg" alt="../assets/images/mobile-calc-line.svg" />
+      </div>
+
+      <!-- Mobile-calc image -->
+      <div class="mobile-calc-img">
+        <img src="../assets/images/mobile-calc-img.svg" alt="../assets/images/mobile-calc-img.svg" />
+      </div>
+      <div class="container-calc">
+        <div class="calculator__outer">
+
+
+          <div class="calculator__inner">
+            <!-- Заголовок -->
+            <div class="calculator__title">
+              <p>Расчет стоимости доставки груза</p>
+            </div>
+
+            <!-- Калькулятор -->
+            <div class="calculator">
+              <div class="calculator-line-one">
+                <span class="calc-span-left calc-foots">20 футов</span>
+                <span class="calc-span-right calc-foots">40 футов</span>
+              </div>
+              <div class="calculator-line-two">
+                <select name="city-select" id="city-select" class="calculator-select-box">
+                  <option class="calc-select-box-label" value="" disabled selected hidden>Город отправки из Китая</option>
+                  <option value="Nankin">Пекин</option>
+                  <option value="Beijing">Нанкин</option>
+                  <option value="Shanghai">Гаунчжоу</option>
+                  <option value="Nando">Шанхай</option>
+                </select>
+                <select name="port-select" id="port-select" class="calculator-select-box">
+                  <option value="calc-select-box-label" disabled selected hidden>Порт назначения</option>
+                  <option value="">Пекин</option>
+                  <option value="">Нанкин</option>
+                  <option value="">Гуанчжоу</option>
+                  <option value="">Шанхай</option>
+                </select>
+              </div>
+
+              <!-- Строка-третья -->
+              <div class="calc-transcript">
+                <!-- Transcript-span -->
+                <span class="transcript-title calc-span">Добавить стоимость таможенного оформления</span>
+                <span class="price">0.00 тг</span>
+
+              </div>
+
+              <!-- Calc-subtext -->
+              <div class="calc-subtext">
+                <p>Калькулятор показывает только стоимость доставки. Для более детльного расчёта <strong>запросите бесплатный расчёт.</strong></p>
+              </div>
+
+              <div class="calc-btn">
+                <button class="btn-blue">Запросить расчет</button>
+              </div>
+
+
+            </div>
+
+          </div>
+          
+          <!-- Image -->
+          <div class="calculator__outer-img-wrap">
+            <img class="calc-img" src="../assets/images/calculator-img.svg" alt="../assets/images/calculator-img.svg">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+
+
+</body>
+</html>
